@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.box1 {
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+}
+
+.box2 {
+    background-color: salmon;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+}
+
+
+
+.problem-intro{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.label-input{
+    display:block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.input-field, .process-button, .output-area {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.process-button {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.process-button:hover {
+    background-color: greenyellow;
+}
+
+.output-area {
+    resize: none;
+    height: 100px;
+    background-color: gainsboro;
+    cursor:default;
+}
+
+.sample-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sample-button {
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.sample-button:hover {
+    background-color: darkblue;
+}
